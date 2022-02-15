@@ -1,0 +1,39 @@
+ASSIGNMENT QUESTIONS _(15-02-2022)
+
+1.When to go for double ? And When to use Float ?
+ double datatype should be used for high accuracy of decimal value .for eg 44.44444987465 .
+float will be using at the time when javac always takes value as default double datatype  so float is not recongised,error will occur . 
+as possible lossy conversion from double to float,so we have to declare the value with f (either upper or lowercase). for eg 3.78f.
+ 
+2.Can char store negative numbers in JAVA?
+Negative numbers cannot be assigned to char, as char is an unsigned data type. 
+
+3.  find the output 
+           int a=10;int b=10; system.out.println(a++ + ++a);
+Answer = 22 because a is incremental value so its incremented once from 10 to 11 then its cancadenated to ++a 
+as this incremental function remains same ++a also 11 so by adding a++ and ++a _ 11+11=22
+
+4. find the output 
+int b = -10; System .out.println(~b);
+Answer= 9 
+it is unary operator and it gives positive of total negative
+
+5. explore about short circuiting
+ If evaluation of a logical expression exits in between before complete evaluation, then it is known as Short-circuit. 
+A short circuit happens because the result is clear even before the complete evaluation of the expression, and the result is returned.
+
+task -1
+convert a do while loop to while loop 
+answer:
+int i=1;
+ while(i<6) 
+ { 
+ System.out.println("I will get printed once for sure");            
+i++;        
+}
+
+task-2
+limitations of for each loop.
+*Cannot retrieve elements based on an index
+*It is not possible to traverse in reverse order
+*Cannot modify array element values
