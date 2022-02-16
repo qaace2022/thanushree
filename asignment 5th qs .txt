@@ -1,0 +1,5 @@
+
+5).Explore Why string is immutable in java. What are the alternatives for it?
+If one reference variable changes the value of the object, it will be affected by all the reference variables.
+so string is set as immutable.string builder is an alternative or else we can create new object
+
