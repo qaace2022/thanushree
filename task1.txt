@@ -1,0 +1,46 @@
+1.Difference between a class and an object?
+	#A class is a template or blueprint used to define the properties of an object.
+
+	#Object is a real-world entity that as its own states and behaviours 
+
+2.What is Overloading and its uses?
+Overloading allows different methods to have the same name, but different arguments where the arguments  can differ by the number of input parameters or type of input parameters or both.
+ Overloading is related to compile-time  polymorphism.
+
+uses of overloading:
+#. Cannot overload a return type in Java
+#. The arguments to a function have to be different even when we overload static or final methods.
+#.  You can also overload the main method in Java.
+
+3.What is Overriding and its uses?
+The concept of subclass inheriting the method from the superclass and changing the method definesation by keeping the same declaration
+ is known as overriding and it is related to run time polymorphism.
+Uses of overriding:
+1.cannot override a final method , private method , static method and override a constructor
+ 2. can only override a method that as the same or stronger access than the current method.
+3. The return type of an overridden method must be the same.
+ 
+4.What is the difference between Overloading and Overriding?
+OVERLOADING:
+overloading is used to increase the readability of program
+Performed within a class
+Parameter is different 
+Overloading is done for compile time polymorphism
+
+OVERRIDING:
+Method overriding is used to provide the specific implementation of the method that is already provided by its super class.
+occurs in two classes that have IS-A (inheritance) relationship
+Parameter are same
+Overriding is done for run time polymorphism
+
+5.What is an Abstract class?
+An abstract class is created by the keyword abstract .abstract class does not define any restrictions 
+on its members .we cannot create an object for an abstract class ,however we can access properties of abstract class through inheritance and overriding .
+
+6.What is an Interface? When and how can we use Interface in Java?
+•	An interface is a pure abstract body used to achieve 100% of abstraction 
+•	All data members in an interface are public static and final. All member functions in an interface are public and abstract ,We cannot create an object for an interface .
+•	However, we can access the properties of an interface through inheritance and overriding 
+•	We can inherit from a interface to a class using the keyword implements and using interface we can do multiple inheritance.
+
+
