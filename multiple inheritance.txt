@@ -1,0 +1,6 @@
+
+1)Why java does not support Multiple inheritance? 
+Is there any way to do that. In java, every class is a child of Object class.
+ When it inherits from more than one super class, sub class gets the ambiguity to acquire the property of Object class.
+To avoid it we can use interface classes and with implements keyword.
+
